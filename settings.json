@@ -1,0 +1,16 @@
+{
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.enabled": true,
+    "files.autoSave": "afterDelay",
+    "python.pythonPath": "venv3.7.3/bin/python",
+    "explorer.autoReveal": false,
+    "xmlTools.enforcePrettySelfClosingTagOnFormat": true,
+    "xmlTools.splitXmlnsOnFormat": true,
+    "xmlTools.xmlFormatterImplementation": "v2",
+    "editor.scrollBeyondLastLine": false
+
+
+}

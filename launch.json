@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Really",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/odoo-12.0/odoo-bin",
+            "console": "integratedTerminal",
+            "args": [
+                "--conf=${workspaceFolder}/config/odoo.conf",
+                "--database=copia_prototipo",
+                "-u",
+                //"stock_quant_package_pallets",
+                //"stock_barcode_pallet",
+                "rnt_custom_reports"
+            ]
+        },
+    ]
+}

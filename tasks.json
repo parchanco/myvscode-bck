@@ -1,0 +1,12 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Really",
+            "type": "shell",
+            "command": "${workspaceFolder}/odoo-12.0/odoo-bin --conf=${workspaceFolder}/config/odoo.conf"
+        },
+    ],
+}
